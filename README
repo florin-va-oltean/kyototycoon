@@ -4,6 +4,15 @@
 ================================================================
 
 
+COMPILATION
+	1. Compiled on Ubuntu 20.04 LTS with gcc 9.3.0 
+	2. Compilation steps:
+		2.1. export CFLAGS=-fpermissive and CXXFLAGS=-fpermissive
+		2.2. ./configure --enable-static=yes --disable-shared --disable-devel --disable-debug --enable-opt --disable-profile --disable-uyield
+		2.3. make 
+		2.4. make install (optional) 
+
+
 Please read the following documents with a WWW browser.
 How to install Kyoto Tycoon is explained in the specification.
 
